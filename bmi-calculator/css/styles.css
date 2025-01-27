@@ -9,9 +9,9 @@
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #320388f9;
+    color: #010101;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ body {
 
 /* Container for the calculator */
 .container {
-    background: white;
+    background: rgb(1, 160, 245);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
