@@ -1,5 +1,14 @@
 /* CSS styles for the BMI Calculator */
 
+/* Global styles */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; /* For gap between container */
+    padding: 20px;
+}
+
 /* Basic reset for margins and padding */
 * {
     margin: 0;
@@ -88,6 +97,8 @@ button:hover {
     text-align: center;
     width: 250px;
     backdrop-filter: blur(10px);
+    opacity: 0; /* Mulai dengan transparansi penuh */
+    animation: fadeIn 5s forwards; /* Animasi fadeIn selama 5 detik */
 }
 
 .profile-photo {
@@ -96,4 +107,11 @@ button:hover {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
+}
+
+/* Keyframes untuk animasi */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
